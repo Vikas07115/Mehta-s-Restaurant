@@ -11,8 +11,8 @@ Welcome to **Mehta's Restaurant**, a modern and user-friendly restaurant managem
 
 ## Tech Stack 🛠️
 - **Frontend:** React.js / HTML / CSS / JavaScript
-- **Backend:** Node.js / Express.js (if applicable)
-- **Database:** MongoDB / MySQL (if applicable)
+- **Backend:** Node.js / Express.js 
+- **Database:** MongoDB / MySQL 
 
 ## Installation 🚀
 1. Clone the repository:
