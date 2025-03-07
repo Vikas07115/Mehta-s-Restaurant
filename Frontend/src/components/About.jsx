@@ -9,22 +9,20 @@ const About = () => {
         <div className="banner">
           <div className="top">
             <h1 className="heading">ABOUT US</h1>
-            <p>The only thing we serious about is food </p>
+            <p className="tagline">"Serving Happiness, One Plate at a Time!" 🍽️😊</p>
           </div>
           <p className="mid">
-            "At [Mehta's Restaurant], we bring you a rich culinary journey
-            inspired by authentic recipes. Our chefs curate every dish with love
-            and precision to offer you a dining experience like no other."
+            <strong>Welcome to Mehta's Restaurant! 🍕✨</strong>  
+            Where <strong>every bite tells a story</strong>, and every meal is made with ❤️.  
+            From <strong>sizzling spices 🌶️</strong> to <strong>heartwarming flavors 🍲</strong>,  
+            we bring you dishes crafted with <strong>passion and tradition</strong>.  
+            Join us for an <strong>unforgettable culinary experience! 🍷🔥</strong>
           </p>
-          <Link to={"/"}>
-            Explore Menu{""}
-            <span>
-              <HiOutlineArrowCircleRight />
-            </span>
+          <Link to={"/"} className="menu-link">
+            Explore Menu <span><HiOutlineArrowCircleRight /></span>
           </Link>
         </div>
         <div className="banner">
-          <HiOutlineArrowCircleRight />
           <img src="/about.png" alt="about" />
         </div>
       </div>
